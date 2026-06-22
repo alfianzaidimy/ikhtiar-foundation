@@ -67,13 +67,14 @@ export default function AboutPage() {
             </div>
           </div>
           <div className="relative h-[300px] md:h-[400px] w-full bg-zinc-900 rounded-2xl overflow-hidden shadow-xl border border-zinc-200">
-            {/* Fallback pattern seandainya belum ada imej suasana pejabat */}
-            <div className="absolute inset-0 bg-zinc-900 flex items-center justify-center p-8 text-center">
-              <span className="text-zinc-500 text-xs font-mono">
-                [ Ruang Imej / Visual Korporat Yayasan ]
-              </span>
-            </div>
-          </div>
+  <Image 
+    src="/main_banner_1.jpg" // Tukar nama fail ni mengikut nama gambar sebenar Bie
+    alt="Visual Korporat Ikhtiar Foundation"
+    fill
+    className="object-cover"
+    sizes="(max-width: 768px) 100vw, 50vw"
+  />
+</div>
         </div>
       </section>
 
