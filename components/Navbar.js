@@ -15,7 +15,7 @@ export default function Navbar() {
     { name: 'Penerima Manfaat', path: '/beneficiaries' },
     { name: 'Program', path: '/programs' },
     { name: 'Hubungi & Sumbangan', path: '/contact' },
-    { name: 'Kepimpinan', path: '/pasukan' }, // <-- Dipendekkan supaya kekal satu baris kemas
+    { name: 'Kepimpinan', path: '/pasukan' }, // <-- Dipendekkan supaya kekal satu baris kemass
   ];
 
   const isActive = (path) => pathname === path;
