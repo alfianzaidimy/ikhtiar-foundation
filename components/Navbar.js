@@ -31,7 +31,7 @@ export default function Navbar() {
             <Link href="/" className="flex items-center gap-2.5 group">
               <div className="relative h-12 w-12 md:h-14 md:w-14">
                 <Image
-                  src="/edit.jpg"
+                  src="/edit.png"
                   alt="Ikhtiar Foundation Logo"
                   fill
                   className="object-contain"
