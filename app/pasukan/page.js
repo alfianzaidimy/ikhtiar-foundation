@@ -45,7 +45,7 @@ const teamMembers = [
     id: 7,
     name: 'Alfian Zaidi',
     role: 'Ketua Pegawai Teknologi (CTO)',
-    image: '/edy.PNG',
+    image: '/edy.png',
   },
 ];
 
