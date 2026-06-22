@@ -9,7 +9,7 @@ const teamMembers = [
     id: 1,
     name: 'YBhg. Dato’ Seri Dr. Ahmad Jailani bin Muhamed Yunus',
     role: 'Pengasas / Pengerusi',
-    image: '/edit.JPG',
+    image: '/DS_Ahmad_Jailani.png',
   },
   {
     id: 2,
