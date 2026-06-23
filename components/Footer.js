@@ -14,7 +14,7 @@ export default function Footer() {
             <div className="flex items-center gap-3">
               <div className="relative h-12 w-12 bg-white rounded-lg p-1">
                 <Image
-                  src="/edit.jpg"
+                  src="/footer.jpg"
                   alt="Ikhtiar Foundation Logo"
                   fill
                   className="object-contain p-1"
