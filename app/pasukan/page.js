@@ -77,12 +77,12 @@ export default function PasukanPage() {
               key={member.id} 
               className="group relative bg-gradient-to-b from-red-950 to-zinc-950 rounded-2xl overflow-hidden shadow-md border border-zinc-800/50 aspect-[3/4] flex flex-col justify-end transition-transform duration-300 hover:scale-[1.02] hover:shadow-xl"
             >
-              {/* Watermark Logo Halus di Penjuru Atas Kanan */}
-              <div className="absolute top-4 right-4 z-20 select-none opacity-40 group-hover:opacity-70 transition-opacity">
+              {/* Watermark Logo Kecil di Penjuru Atas Kanan */}
+              <div className="absolute top-4 right-4 z-20 select-none opacity-40 group-hover:opacity-80 transition-opacity">
                 <img 
-                  src="/logo.png" 
-                  alt="Logo Ikhtiar" 
-                  className="w-6 h-6 object-contain filter brightness-200" 
+                  src="/edit.png" 
+                  alt="Logo Watermark" 
+                  className="w-7 h-7 object-contain filter brightness-200" 
                 />
               </div>
 
