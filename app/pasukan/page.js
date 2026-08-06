@@ -77,13 +77,25 @@ export default function PasukanPage() {
               key={member.id} 
               className="group relative bg-gradient-to-b from-red-950 to-zinc-950 rounded-2xl overflow-hidden shadow-md border border-zinc-800/50 aspect-[3/4] flex flex-col justify-end transition-transform duration-300 hover:scale-[1.02] hover:shadow-xl"
             >
-              {/* Watermark Logo menggunakan PNG asal dengan teknik blend-mode screen supaya background putih hilang */}
-              <div className="absolute top-4 right-4 z-20 select-none opacity-60 group-hover:opacity-100 transition-opacity">
-                <img 
-                  src="/smallllogo.png" 
-                  alt="Logo Ikhtiar" 
-                  className="w-7 h-7 object-contain mix-blend-screen brightness-200" 
-                />
+              {/* Logo Vektor Ikhtiar Sebenar (Merah & Titik Hitam) di Penjuru Atas Kanan */}
+              <div className="absolute top-3 right-3 z-25 select-none opacity-80 group-hover:opacity-100 transition-opacity">
+                <svg className="w-8 h-10" viewBox="0 0 100 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  {/* Titik-titik atas (Hitam) */}
+                  <rect x="35" y="2" width="10" height="10" transform="rotate(45 35 2)" fill="#111111" />
+                  <rect x="55" y="2" width="10" height="10" transform="rotate(45 55 2)" fill="#111111" />
+                  <rect x="70" y="12" width="8" height="8" transform="rotate(45 70 12)" fill="#111111" />
+
+                  {/* Badan Khat Utama (Merah Terang) */}
+                  <path d="M25 30H32V90H25V30Z" fill="#E53E3E" />
+                  <path d="M40 20H48V100H40V20Z" fill="#E53E3E" />
+                  <path d="M55 20H63V90H55V20Z" fill="#E53E3E" />
+                  <path d="M72 35H80V75H72V35Z" fill="#E53E3E" />
+                  <path d="M15 35H22V65H15V35Z" fill="#E53E3E" />
+
+                  {/* Titik-titik bawah (Hitam) */}
+                  <rect x="35" y="105" width="10" height="10" transform="rotate(45 35 105)" fill="#111111" />
+                  <rect x="50" y="105" width="10" height="10" transform="rotate(45 50 105)" fill="#111111" />
+                </svg>
               </div>
 
               {/* Gambar Ahli / Kotak Kad */}
