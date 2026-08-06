@@ -21,7 +21,7 @@ const teamMembers = [
     id: 3,
     name: 'Puan Khadijah binti Ishak',
     role: 'Setiausaha Kehormat IF',
-    image: '/edit.png',
+    image: '/Khadija.jpg',
   },
   {
     id: 4,
@@ -43,7 +43,7 @@ const teamMembers = [
   },
   {
     id: 7,
-    name: 'Alfian Zaidi Bin Mohamad Yusof',
+    name: 'Alfian Zaidi bin Mohamad Yusof',
     role: 'Ketua Pegawai Teknologi (CTO)',
     image: '/edy.png',
   },
