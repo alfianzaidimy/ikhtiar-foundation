@@ -1,6 +1,6 @@
 export const metadata = {
   title: 'Barisan Kepimpinan | Ikhtiar Foundation',
-  description: 'Kenali barisan pengurusan dan jawatankuasa tertinggi yang memacu misi kemainan Ikhtiar Foundation Malaysia.',
+  description: 'Kenali barisan pengurusan dan jawatankuasa tertinggi yang memacu misi kemainah Ikhtiar Foundation Malaysia.',
 };
 
 // Data barisan pengurusan yayasan
@@ -53,7 +53,7 @@ export default function PasukanPage() {
   return (
     <div className="bg-zinc-50 min-h-screen font-sans">
       
-      {/* 1. Header Section (Dah diseragamkan dengan kotak hitam penuh macam rujukan imej Bie) */}
+      {/* 1. Header Section */}
       <section className="relative bg-zinc-950 text-white py-20 px-4 text-center overflow-hidden">
         <div className="absolute inset-0 opacity-20 bg-[radial-gradient(circle_at_center,_var(--tw-gradient-stops))] from-zinc-700 via-zinc-900 to-black"></div>
         <div className="max-w-3xl mx-auto relative z-10 space-y-4">
@@ -77,12 +77,16 @@ export default function PasukanPage() {
               key={member.id} 
               className="group relative bg-gradient-to-b from-red-950 to-zinc-950 rounded-2xl overflow-hidden shadow-md border border-zinc-800/50 aspect-[3/4] flex flex-col justify-end transition-transform duration-300 hover:scale-[1.02] hover:shadow-xl"
             >
-              {/* Overlay Logo Halus di Penjuru Atas Kanan */}
-              <div className="absolute top-4 right-4 text-xs font-bold text-white/40 tracking-wider select-none uppercase">
-                Ikhtiar
+              {/* Watermark Logo Halus di Penjuru Atas Kanan */}
+              <div className="absolute top-4 right-4 z-20 select-none opacity-40 group-hover:opacity-70 transition-opacity">
+                <img 
+                  src="/logo.png" 
+                  alt="Logo Ikhtiar" 
+                  className="w-6 h-6 object-contain filter brightness-200" 
+                />
               </div>
 
-              {/* Gambar Ahli */}
+              {/* Gambar Ahli / Kotak Kad */}
               <div className="absolute inset-0 w-full h-full">
                 <img 
                   src={member.image} 
