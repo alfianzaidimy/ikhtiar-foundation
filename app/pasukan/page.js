@@ -14,7 +14,7 @@ const teamMembers = [
   {
     id: 2,
     name: 'Encik Khairul Azar bin Hj. Omar',
-    role: 'Pengasas / Pengerusi',
+    role: 'Pengasas/ Timbalan Pengerusii',
     image: '/edit.png',
   },
   {
@@ -26,7 +26,7 @@ const teamMembers = [
   {
     id: 4,
     name: 'Encik `Aizul Kamil bin Ibrahim',
-    role: 'Setiausaha Kehormat IF',
+    role: 'Bendahari Kehormat IF',
     image: '/Aizul .jpg',
   },
   {
