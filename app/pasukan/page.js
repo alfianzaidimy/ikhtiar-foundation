@@ -43,7 +43,7 @@ const teamMembers = [
   },
   {
     id: 7,
-    name: 'Alfian Zaidi',
+    name: 'Alfian Zaidi Bin Mohamad Yusof',
     role: 'Ketua Pegawai Teknologi (CTO)',
     image: '/edy.png',
   },
