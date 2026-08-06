@@ -77,12 +77,12 @@ export default function PasukanPage() {
               key={member.id} 
               className="group relative bg-gradient-to-b from-red-950 to-zinc-950 rounded-2xl overflow-hidden shadow-md border border-zinc-800/50 aspect-[3/4] flex flex-col justify-end transition-transform duration-300 hover:scale-[1.02] hover:shadow-xl"
             >
-              {/* Watermark Logo SVG Rasmi di Penjuru Atas Kanan */}
+              {/* Watermark Logo menggunakan PNG asal dengan teknik blend-mode screen supaya background putih hilang */}
               <div className="absolute top-4 right-4 z-20 select-none opacity-60 group-hover:opacity-100 transition-opacity">
                 <img 
-                  src="/smallllogo.svg" 
+                  src="/smallllogo.png" 
                   alt="Logo Ikhtiar" 
-                  className="w-7 h-7 object-contain filter brightness-0 invert" 
+                  className="w-7 h-7 object-contain mix-blend-screen brightness-200" 
                 />
               </div>
 
