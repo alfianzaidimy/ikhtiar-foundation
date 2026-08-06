@@ -77,10 +77,16 @@ export default function PasukanPage() {
               key={member.id} 
               className="group relative bg-gradient-to-b from-red-950 to-zinc-950 rounded-2xl overflow-hidden shadow-md border border-zinc-800/50 aspect-[3/4] flex flex-col justify-end transition-transform duration-300 hover:scale-[1.02] hover:shadow-xl"
             >
-              {/* Watermark Logo SVG Rasmi di Penjuru Atas Kanan */}
-              <div className="absolute top-4 right-4 z-20 select-none opacity-40 group-hover:opacity-80 transition-opacity">
-                <svg className="w-6 h-6 text-red-500" viewBox="0 0 24 24" fill="currentColor">
-                  <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5" />
+              {/* Watermark LOGO RASMI IKHTIAR (White Khat) di Penjuru Atas Kanan */}
+              <div className="absolute top-4 right-3 z-20 select-none opacity-80 group-hover:opacity-100 transition-opacity">
+                <svg className="w-8 h-8 text-white" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M30 2C14.536 2 2 14.536 2 30C2 45.464 14.536 58 30 58C45.464 58 58 45.464 58 30C58 14.536 45.464 2 30 2ZM30 52C17.85 52 8 42.15 8 30C8 17.85 17.85 8 30 8C42.15 8 52 17.85 52 30C52 42.15 42.15 52 30 52Z" fill="currentColor"/>
+                  <path d="M24 18.5C24 17.6716 24.6716 17 25.5 17C26.3284 17 27 17.6716 27 18.5V41.5C27 42.3284 26.3284 43 25.5 43C24.6716 43 24 42.3284 24 41.5V18.5Z" fill="currentColor"/>
+                  <path d="M33 18.5C33 17.6716 33.6716 17 34.5 17C35.3284 17 36 17.6716 36 18.5V41.5C36 42.3284 35.3284 43 34.5 43C33.6716 43 33 42.3284 33 41.5V18.5Z" fill="currentColor"/>
+                  <path d="M42 28.5C42 27.6716 42.6716 27 43.5 27C44.3284 27 45 27.6716 45 28.5V41.5C45 42.3284 44.3284 43 43.5 43C42.6716 43 42 42.3284 42 41.5V28.5Z" fill="currentColor"/>
+                  <path d="M15 28.5C15 27.6716 15.6716 27 16.5 27C17.3284 27 18 27.6716 18 28.5V41.5C18 42.3284 17.3284 43 16.5 43C15.6716 43 15 42.3284 15 41.5V28.5Z" fill="currentColor"/>
+                  <circle cx="30" cy="48" r="2" fill="currentColor"/>
+                  <circle cx="30" cy="12" r="2" fill="currentColor"/>
                 </svg>
               </div>
 
