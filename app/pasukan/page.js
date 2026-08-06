@@ -44,7 +44,7 @@ const teamMembers = [
   {
     id: 7,
     name: 'Alfian Zaidi bin Mohamad Yusof',
-    role: 'Ketua Pegawai Teknologi (CTO)',
+    role: 'Pengurus Digital IKHTIAR Foundation',
     image: '/edy.png',
   },
 ];
