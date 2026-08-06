@@ -27,7 +27,7 @@ const teamMembers = [
     id: 4,
     name: 'Encik `Aizul Kamil bin Ibrahim',
     role: 'Setiausaha Kehormat IF',
-    image: '/Aizul.jpg',
+    image: '/Aizul .jpg',
   },
   {
     id: 5,
